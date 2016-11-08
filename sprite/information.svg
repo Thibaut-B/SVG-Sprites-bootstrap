@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>information</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="information" fill="#1D1D1B">
+            <g>
+                <path d="M16.712,8.37 C15.273,8.37 14.312,9.213 14.312,10.514 C14.312,11.82 15.273,12.66 16.712,12.66 C18.173,12.66 19.108,11.82 19.108,10.514 C19.109,9.213 18.173,8.37 16.712,8.37 L16.712,8.37 Z" id="Shape"></path>
+                <rect id="Rectangle-path" x="14.472" y="14.015" width="4.501" height="10.201"></rect>
+                <path d="M16.712,0.296 C7.858,0.296 0.712,7.442 0.712,16.296 C0.712,25.125 7.858,32.296 16.712,32.296 C25.541,32.296 32.712,25.125 32.712,16.296 C32.712,7.444 25.541,0.296 16.712,0.296 L16.712,0.296 Z M16.712,28.296 C10.095,28.296 4.712,22.91 4.712,16.296 C4.712,9.679 10.095,4.296 16.712,4.296 C23.322,4.296 28.712,9.679 28.712,16.296 C28.712,22.91 23.323,28.296 16.712,28.296 L16.712,28.296 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SVG Sprites generator</title>
+    <meta name="description" content="How to use an Icons with a SVG Sprites generator">
+    <meta name=viewport content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+
+    <style>
+      *{ margin: 0; padding: 0; }
+      body { font-size: 14px; font-family: Arial;}
+      ul { list-style: none; }
+      li {
+        display: inline-block;
+        width: 240px;
+        margin-bottom: 20px;
+      }
+      svg {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+        fill: currentColor;
+      }
+      header {
+        background-color: #202020;
+        color: #fff;
+        margin-bottom: 30px;
+        padding: 10px;
+      }
+      header a {
+        color: #fff;
+        float: right;
+      }
+      h1 {
+        font-weight: 300;
+        font-size: 20px;
+      }
+      h2, ul {
+        margin-bottom: 16px;
+      }
+      p { margin-bottom: 8px;}
+      section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+      }
+      .section-code {
+        background: #f5f5f5;
+      }
+      .container { max-width: 1260px; padding-left:16px; padding-right:16px; margin-left: auto; margin-right: auto;}
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px 22px 12px 18px;
+        border-radius: 48px;
+        text-shadow: 0px -1px 0.05em #b5d08b;
+        background: #c5de9e;
+        color: #fff;
+        font-size: 16px;
+        margin-top: 15px;
+      }
+      .btn:hover {  background: #aec48b; }
+      .rating-exemple {
+        color: #ffce00;
+        margin-bottom: 30px;
+      }
+      a {
+        color: inherit;
+      }
+    </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <a title="See on Github" href="http://"><svg width="23" height="23"><use xlink:href="sprite.svg#github"></use></svg></a>
+    <h1>SVG Sprite Generator</h1>
+  </div>
+</header>
+
+<section class="container">
+  <h2>Why use SVG Sprites</h2>
+  <p>SVG and icons are both vectors, easy to cache and maintain.<br>Using SVG is the most flexible solution, so much easier to use than Icon Fonts or PNG sprites. </p>
+  <a class="btn" href="http://" title="See on Github"><svg width="16" height="16"><use xlink:href="sprite.svg#github"></use></svg>See on Github</a>
+</section>
+
+<section class="section-code">
+  <div class="container">
+    <h2>How to use the sprites</h2>
+    <p>It is really similar as using images. You just need to define the path to your svg file with the name of your icon and a size.
+    <script src="https://gist.github.com/Thibaut-B/060e7e644688ccdadfaa7527c1505222.js"></script>
+    <p>If you want to easily manage the color of you icon I recommend to make the SVG colour inherit from its parent.</p>
+  </div>
+</section>
+
+<section class="container">
+  <h2>List of icons used in my project</h2>
+  <ul>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#arrow-left"></use></svg>arrow-left</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#arrow-right"></use></svg>arrow-right</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#arrow-up"></use></svg>arrow-up</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#arrow-down"></use></svg>arrow-down</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#chevron-left"></use></svg>chevron-left</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#chevron-right"></use></svg>chevron-right</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#chevron-up"></use></svg>chevron-up</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#chevron-down"></use></svg>chevron-down</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#ok"></use></svg>ok</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#close"></use></svg>close</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#calendar"></use></svg>calendar</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#cloud"></use></svg>cloud</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#cloud-down"></use></svg>cloud-down</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#cloud-up"></use></svg>cloud-up</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#facebook"></use></svg>facebook</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#twitter"></use></svg>twitter</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#dribbble"></use></svg>dribbble</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#github"></use></svg>github</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#gplus"></use></svg>gplus</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#heart"></use></svg>heart</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#help"></use></svg>help</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#information"></use></svg>information</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#warning"></use></svg>warning</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#menu"></use></svg>menu</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#list"></use></svg>list</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#marker"></use></svg>marker</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#mail"></use></svg>mail</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#plus"></use></svg>plus</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#search"></use></svg>search</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#send"></use></svg>send</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#user"></use></svg>user</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#star-empty"></use></svg>star-empty</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#star-plain"></use></svg>star-plain</li>
+    <li><svg width="30" height="30"><use xlink:href="sprite.svg#spinner"></use></svg>spinner</li>
+  </ul>
+
+  <h2>Exemple using colour</h2>
+
+  <div class="rating-exemple">
+    <svg width="30" height="30"><use xlink:href="sprite.svg#star-plain"></use></svg>
+    <svg width="30" height="30"><use xlink:href="sprite.svg#star-plain"></use></svg>
+    <svg width="30" height="30"><use xlink:href="sprite.svg#star-plain"></use></svg>
+    <svg width="30" height="30"><use xlink:href="sprite.svg#star-empty"></use></svg>
+    <svg width="30" height="30"><use xlink:href="sprite.svg#star-empty"></use></svg>
+  </div>
+</section>
+
+<footer class="container">
+  <h3>About the author</h3>
+  <p><a href="http://thibaut-baillet.com">Thibaut Baillet</a> is a UX/UI Developer based in London.<p>
+  <h3>Licences</h3>
+  <p>Creative common attribution licenses</p>
+  <p>Licenses may copy, distribute, display and perform the work and make derivative works based on it only if they give the author or licensor the credits in the manner specified by these.</p>
+  <p>This exemple show the MFG Labs iconset https://github.com/MfgLabs/mfglabs-iconset<p>
+
+
+</footer>
+
+</body>
+</html>

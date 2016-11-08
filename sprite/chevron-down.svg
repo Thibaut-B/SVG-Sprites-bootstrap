@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="20px" viewBox="0 0 33 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chevron-down" fill="#1D1D1B">
+            <path d="M4.237,1.03 C3.302,0.092 1.799,0.092 0.851,1.03 C0.384,1.501 0.15,2.106 0.15,2.718 C0.15,3.329 0.384,3.947 0.851,4.409 L16.148,19.708 L31.458,4.409 C32.396,3.471 32.396,1.958 31.458,1.017 C30.52,0.08 29.012,0.08 28.063,1.017 L16.149,12.93 L4.237,1.03 L4.237,1.03 Z"></path>
+        </g>
+    </g>
+</svg>

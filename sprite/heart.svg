@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="30px" viewBox="0 0 33 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>heart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="heart" fill="#1D1D1B">
+            <path d="M32.431,9.162 C32.431,4.464 28.603,0.646 23.878,0.646 C20.681,0.646 17.898,2.396 16.431,4.984 C14.964,2.396 12.181,0.646 8.984,0.646 C4.261,0.646 0.431,4.458 0.431,9.162 C0.431,11.343 1.257,13.313 2.611,14.819 C2.609,14.819 2.603,14.828 2.603,14.828 L14.296,28.608 C15.47,29.997 17.394,29.997 18.566,28.608 L30.263,14.828 L30.253,14.819 C31.603,13.317 32.431,11.341 32.431,9.162 L32.431,9.162 Z"></path>
+        </g>
+    </g>
+</svg>

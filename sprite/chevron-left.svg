@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="33px" viewBox="0 0 21 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chevron-left" fill="#1D1D1B">
+            <path d="M19.434,4.109 C20.369,3.171 20.369,1.664 19.434,0.723 C18.966,0.253 18.354,0.022 17.741,0.022 C17.137,0.022 16.516,0.253 16.053,0.723 L0.753,16.021 L16.053,31.326 C16.989,32.264 18.503,32.264 19.439,31.326 C20.377,30.388 20.377,28.875 19.439,27.935 L7.525,16.021 L19.434,4.109 L19.434,4.109 Z"></path>
+        </g>
+    </g>
+</svg>

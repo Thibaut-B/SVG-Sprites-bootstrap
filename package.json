@@ -1,0 +1,19 @@
+{
+  "name": "svg-sprite",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "author": "Thibaut Baillet <contact@thibaut-baillet.com>",
+  "license": "MIT",
+  "keywords": [
+    "svg",
+    "icon",
+    "sprite"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
+    "path": "^0.12.7"
+  }
+}
